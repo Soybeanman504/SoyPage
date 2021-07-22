@@ -1,4 +1,4 @@
-/*/上下左右は10pxずつ開ける/*/
+/*/上下左右は5vminずつ開ける/*/
 
 div.fakeWindow {
     position: absolute;
@@ -31,7 +31,7 @@ div.fakewindow div {
 }
 
 div.fakeMain {
-    width: calc(100% - 20px);
+    width: calc(100% - 10vmin);
     flex-direction: column;
 }
 
@@ -86,9 +86,9 @@ div.fakeClose {
 }
 
 div.fakeLeft {
-    flex: 0 0 10px;
-    width: 10px;
-    height: calc(100% - 20px);
+    flex: 0 0 5vmin;
+    width: 5vmin;
+    height: calc(100% - 10vmin);
 }
 
 iframe.fakePage {
@@ -99,37 +99,37 @@ iframe.fakePage {
 }
 
 div.fakeRight {
-    flex: 0 0 10px;
-    width: 10px;
-    height: calc(100% - 20px);
+    flex: 0 0 5vmin;
+    width: 5vmin;
+    height: calc(100% - 10vmin);
 }
 
 div.fakeTop {
-    width: calc(100% - 20px);
-    height: 10px;
+    width: calc(100% - 10vmin);
+    height: 5vmin;
 }
 
 div.fakeTopLeft {
-    width: 10px;
-    height: 10px;
+    width: 5vmin;
+    height: 5vmin;
 }
 
 div.fakeTopRight {
-    width: 10px;
-    height: 10px;
+    width: 5vmin;
+    height: 5vmin;
 }
 
 div.fakeBottom {
-    width: calc(100% - 20px);
-    height: 10px;
+    width: calc(100% - 10vmin);
+    height: 5vmin;
 }
 
 div.fakeBottomLeft {
-    width: 10px;
-    height: 10px;
+    width: 5vmin;
+    height: 5vmin;
 }
 
 div.fakeBottomRight {
-    width: 10px;
-    height: 10px;
+    width: 5vmin;
+    height: 5vmin;
 }
