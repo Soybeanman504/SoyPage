@@ -1,0 +1,135 @@
+/*/上下左右は10pxずつ開ける/*/
+
+div.fakeWindow {
+    position: absolute;
+    margin: 0px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    user-select: none; /* CSS3 */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Safari、Chromeなど */
+    -ms-user-select: none; /* IE10かららしい */
+}
+
+div.fakeWindow * {
+    margin: 0px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+
+div.fakewindow div {
+    line-height: 47.5px;
+    text-align: center;
+
+    justify-content: center;
+}
+
+div.fakeMain {
+    width: calc(100% - 20px);
+    flex-direction: column;
+}
+
+div.fakeBar {
+    flex: 0 0 50px;
+    width: auto;
+    height: 50px;
+    font-size: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+div.fakeBack {
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+
+    color: whitesmoke;
+    background-color: lightsteelblue;
+    border: solid slategray;
+}
+
+div.fakeNext {
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+
+    color: whitesmoke;
+    background-color: lightsteelblue;
+    border: solid slategray;
+}
+
+div.fakeHandle {
+    flex: 1;
+    width: 100%;
+    height: 50px;
+
+    color: midnightblue;
+    background-color: whitesmoke;
+    border: solid thistle;
+}
+
+div.fakeClose {
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+    z-index:10;
+    
+    color: whitesmoke;
+    background-color: tomato;
+    border: solid darkred;
+}
+
+div.fakeLeft {
+    flex: 0 0 10px;
+    width: 10px;
+    height: calc(100% - 20px);
+}
+
+iframe.fakePage {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+div.fakeRight {
+    flex: 0 0 10px;
+    width: 10px;
+    height: calc(100% - 20px);
+}
+
+div.fakeTop {
+    width: calc(100% - 20px);
+    height: 10px;
+}
+
+div.fakeTopLeft {
+    width: 10px;
+    height: 10px;
+}
+
+div.fakeTopRight {
+    width: 10px;
+    height: 10px;
+}
+
+div.fakeBottom {
+    width: calc(100% - 20px);
+    height: 10px;
+}
+
+div.fakeBottomLeft {
+    width: 10px;
+    height: 10px;
+}
+
+div.fakeBottomRight {
+    width: 10px;
+    height: 10px;
+}
